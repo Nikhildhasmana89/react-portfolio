@@ -1,19 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header"
-import { Outlet } from "react-router-dom";
+import React from 'react'
 
 function App() {
   return (
-    <>
-    <Header/>
-    <Outlet/>
-    <Footer/>
-    </>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-export default App;
+export default App

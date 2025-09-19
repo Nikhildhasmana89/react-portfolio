@@ -1,7 +1,8 @@
 import React from "react";
+
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-10">
+    <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
         
         <p className="text-sm">
@@ -26,7 +27,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a 
-            href="mailto: nikhildhasmana5@gmail.com" 
+            href="mailto:nikhildhasmana5@gmail.com" 
             className="hover:text-blue-400"
           >
             Email
