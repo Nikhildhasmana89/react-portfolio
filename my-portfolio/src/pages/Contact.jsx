@@ -4,7 +4,7 @@ function Contact() {
       id="contact"
       className="min-h-screen bg-gray-900 text-white px-6 py-20 flex flex-col items-center"
     >
-      {/* Section Title */}
+      
       <h2 className="text-4xl font-bold mb-8 border-b-4 border-indigo-500 inline-block">
         Contact Me
       </h2>
@@ -14,7 +14,7 @@ function Contact() {
         collaborate, or just say hi, feel free to reach out.
       </p>
 
-      {/* Contact Links */}
+      
       <div className="flex gap-6 mb-12 flex-wrap justify-center">
         <a
           href="nikhildhasmana5@gmail.com"
@@ -38,14 +38,14 @@ function Contact() {
         </a>
       </div>
 
-      {/* Optional Contact Form */}
+     
       <form className="w-full max-w-lg bg-gray-800 p-8 rounded-2xl shadow-lg">
         <div className="mb-4">
           <label className="block text-gray-300 mb-2">Name</label>
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full p-3 rounded-lg text-gray-900"
+            className="w-full p-3 rounded-lg "
           />
         </div>
 
@@ -54,7 +54,7 @@ function Contact() {
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full p-3 rounded-lg text-gray-900"
+            className="w-full p-3 rounded-lg "
           />
         </div>
 
@@ -63,7 +63,7 @@ function Contact() {
           <textarea
             rows="4"
             placeholder="Your Message"
-            className="w-full p-3 rounded-lg text-gray-900"
+            className="w-full p-3 rounded-lg"
           ></textarea>
         </div>
 

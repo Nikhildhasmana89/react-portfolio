@@ -5,16 +5,10 @@ import Footer from "./Footer";
 
 function Layout() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div>
       <Header />
-
-      {/* Main content takes remaining space */}
-      <main className="flex-grow">
-        <Outlet />
-      </main>
-
-      {/* Footer sticks at bottom */}
-      <Footer/>
+      <Outlet />
+      <Footer />
     </div>
   );
 }

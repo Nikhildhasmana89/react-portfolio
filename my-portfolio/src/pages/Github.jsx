@@ -4,26 +4,24 @@ function Github() {
   return (
     <section
       id="github"
-      className="min-h-screen bg-gray-50 px-6 py-20 flex flex-col items-center"
+      className="min-h-screen bg-gray-900 px-6 py-20 flex flex-col items-center"
     >
-      {/* Heading */}
-      <h2 className="text-3xl font-bold mb-8">My GitHub Projects</h2>
+      <h2 className="text-3xl font-bold mb-8 text-white">My GitHub Projects</h2>
 
-      {/* Short Description */}
-      <p className="text-gray-700 mb-12 text-center max-w-md">
-        Here are some of the projects I’ve worked on. You can click to see the code on GitHub.
+      <p className="text-white mb-12 text-center max-w-md">
+        Here are some of the projects I’ve worked on. You can click to see the
+        code on GitHub.
       </p>
 
-      {/* Project Cards */}
       <div className="grid gap-8 sm:grid-cols-2 max-w-4xl w-full">
-        {/* Project 1 */}
         <div className="p-4 bg-white rounded shadow hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold mb-2">E-Commerce Website</h3>
+          <h3 className="text-xl font-semibold mb-2">Metro Sarthi</h3>
           <p className="text-gray-600 mb-4">
-            A simple e-commerce website with product listing, cart functionality, and authentication.
+            A simple metro travel assistant application built with HTML, CSS,
+            and JavaScript.
           </p>
           <a
-            href="https://github.com/yourusername/ecommerce"
+            href="https://github.com/Nikhildhasmana89/Metro-sarthi"
             target="_blank"
             className="text-indigo-600 hover:underline"
           >
@@ -31,14 +29,14 @@ function Github() {
           </a>
         </div>
 
-        {/* Project 2 */}
         <div className="p-4 bg-white rounded shadow hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold mb-2">AI Chatbot</h3>
+          <h3 className="text-xl font-semibold mb-2">Small-React-Projects</h3>
           <p className="text-gray-600 mb-4">
-            A chatbot using Python and NLP techniques to answer questions and provide information.
+            Beginner-friendly React projects to improve my frontend development
+            skills.
           </p>
           <a
-            href="https://github.com/yourusername/aichatbot"
+            href="https://github.com/Nikhildhasmana89/Small-React-Projects"
             target="_blank"
             className="text-indigo-600 hover:underline"
           >
@@ -46,14 +44,33 @@ function Github() {
           </a>
         </div>
 
-        {/* Project 3 */}
+        <div className="p-4 bg-white rounded shadow hover:shadow-lg transition">
+          <h3 className="text-xl font-semibold mb-2">
+            react-currency-converter
+          </h3>
+          <p className="text-gray-600 mb-4">
+            A simple currency converter built with React that fetches real-time
+            exchange rates and allows users to convert between multiple
+            currencies easily.
+          </p>
+          <a
+            href="https://github.com/Nikhildhasmana89/react-currency-converter"
+            target="_blank"
+            className="text-indigo-600 hover:underline"
+          >
+            View on GitHub →
+          </a>
+        </div>
+
         <div className="p-4 bg-white rounded shadow hover:shadow-lg transition">
           <h3 className="text-xl font-semibold mb-2">Portfolio Website</h3>
           <p className="text-gray-600 mb-4">
-            My personal portfolio website built with React and Tailwind CSS.
+            Personal portfolio website built with React and React Router.
+            Features Home, About, Projects, and Contact pages, along with a
+            GitHub integration to fetch and display my profile and repositories
           </p>
           <a
-            href="https://github.com/yourusername/portfolio"
+            href="https://github.com/Nikhildhasmana89/react-portfolio"
             target="_blank"
             className="text-indigo-600 hover:underline"
           >
