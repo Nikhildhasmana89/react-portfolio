@@ -4,16 +4,16 @@ function Github() {
   return (
     <section
       id="github"
-      className="min-h-screen bg-gray-900 px-6 py-20 flex flex-col items-center"
+      className="h-[calc(100vh-120px)] bg-gray-900 px-6 py-10 flex flex-col items-center justify-center overflow-hidden"
     >
-      <h2 className="text-3xl font-bold mb-8 text-white">My GitHub Projects</h2>
+      <h2 className="text-3xl font-bold mb-6 text-white">My GitHub Projects</h2>
 
-      <p className="text-white mb-12 text-center max-w-md">
+      <p className="text-white mb-8 text-center max-w-md">
         Here are some of the projects I’ve worked on. You can click to see the
         code on GitHub.
       </p>
 
-      <div className="grid gap-8 sm:grid-cols-2 max-w-4xl w-full">
+      <div className="grid gap-6 sm:grid-cols-2 max-w-4xl w-full overflow-y-auto px-2 max-h-[calc(100vh-250px)]">
         <div className="p-4 bg-white rounded shadow hover:shadow-lg transition">
           <h3 className="text-xl font-semibold mb-2">Metro Sarthi</h3>
           <p className="text-gray-600 mb-4">
@@ -67,7 +67,7 @@ function Github() {
           <p className="text-gray-600 mb-4">
             Personal portfolio website built with React and React Router.
             Features Home, About, Projects, and Contact pages, along with a
-            GitHub integration to fetch and display my profile and repositories
+            GitHub integration to fetch and display my profile and repositories.
           </p>
           <a
             href="https://github.com/Nikhildhasmana89/react-portfolio"
